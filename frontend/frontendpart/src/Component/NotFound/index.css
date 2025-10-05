@@ -1,0 +1,27 @@
+.notfound-container {
+  height: 10vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  height: 300px;
+  width: 300px;
+}
+.head {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.para {
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+}

@@ -1,0 +1,43 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #272727;
+  width: 95vw;
+  height: 70px;  
+  margin-left: 20px;
+  margin-top: 0px;;
+  position: fixed;
+}
+.website-logo {
+  height: 60px;
+  width: 140px;
+
+  padding-bottom: 10px;
+}
+.unordered-lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.home-text {
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+.home{
+  color:white;
+}
+.btn-logout {
+  width: 90px;
+  background-color: #4f46e5;
+  color: white;
+  font-family: 'Roboto';
+  text-align: center;
+  border-width: 0px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 25px;
+  cursor: pointer;
+}

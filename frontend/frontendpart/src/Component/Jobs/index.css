@@ -1,0 +1,148 @@
+.jobs-bg {
+  background-color: #0f172a; /* deep navy */
+  min-height: 100vh;
+  color: #f8fafc; /* near white */
+  display: flex;
+  flex-direction: column;
+}
+
+.jobs-container {
+  display: flex;
+  padding: 20px;
+  flex: 1; 
+}
+
+.profile-job-container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.left-section {
+  width: 25%;
+  padding: 20px; 
+  background-color: #1e293b; /* slate */
+  border-radius: 12px;
+  position: sticky;     /* make it fixed relative to viewport */
+  top: 100px;           /* distance from top */
+  align-self: flex-start;
+  height: fit-content;  /* shrink to content */
+}
+
+
+.right-section {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+/* Jobs List */
+.jobs-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Sidebar Filter Section */
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.employement-head {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 16px 0 8px;
+  color: #f1f5f9; /* lighter white */
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #ffffff; /* pure white */
+  cursor: pointer;
+}
+
+.filter-option input[type="checkbox"],
+.filter-option input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #3b82f6; /* bright blue */
+  cursor: pointer;
+  margin: 0; 
+  color: white;
+}
+
+.filter-option label {
+  cursor: pointer;
+  color: #ffffff;  /* force white text */
+}
+
+
+.hori {
+  border: none;
+  border-top: 1px solid #334155; /* dark slate */
+  margin: 16px 0;
+}
+.one{
+  color:white;
+}
+/* Loader */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/* Search Bar */
+.search-form {
+  display: flex;
+  align-items: center;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #1e293b;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px 14px;
+  border: none;
+  background: transparent;
+  color: #f8fafc;
+  font-size: 14px;
+}
+
+.search-input::placeholder {
+  color: #64748b; /* muted placeholder */
+}
+
+.search-btn {
+  background: #3b82f6;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.search-btn:hover {
+  background: #2563eb; /* darker blue */
+}
+
+.search-icon {
+  color: white;
+  font-size: 18px;
+}

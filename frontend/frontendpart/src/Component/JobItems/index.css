@@ -1,0 +1,106 @@
+.card-list {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.card-list:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.5);
+}
+
+.logo-head-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.image-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: contain;
+  background-color: #fff;
+  padding: 6px;
+  margin-right: 15px;
+}
+
+.heading-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: #f1f1f1;
+}
+
+.rating-card {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.star {
+  color: #fbbf24;
+  margin-right: 6px;
+  font-size: 16px;
+}
+
+.second-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.insdide-second {
+  display: flex;
+  gap: 20px;
+}
+
+.location-category {
+  display: flex;
+  align-items: center;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.location-icon,
+.case-icon {
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+.lpa-card {
+  font-size: 14px;
+  font-weight: 500;
+  color: #22c55e;
+}
+
+.horione {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 16px 0;
+}
+
+.description-head {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.description-card {
+  font-size: 14px;
+  color: #d1d1d1;
+  line-height: 1.5;
+}

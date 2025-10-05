@@ -1,0 +1,76 @@
+.profile-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  color: white;
+
+  /* responsive sizing */
+  width: 90%;     /* take most of mobile screen */
+  max-width: 300px; /* but don’t stretch too much on desktop */
+  min-height: 180px;
+}
+
+/* Circle for first initial */
+.profile-initial {
+  width: 50px;
+  height: 50px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Name + bio text */
+.name {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #b6c5ff;
+  margin-bottom: 5px;
+}
+
+.shortbio {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: black;
+  margin-bottom: 10px;
+}
+
+/* Retry button */
+.btn-retry {
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4f46e5;
+  cursor: pointer;
+}
+
+/* 🔹 Extra mobile adjustments */
+@media screen and (max-width: 480px) {
+  .profile-card {
+    width: 80%;
+    padding: 10px;
+    min-height: auto;
+    text-align: center;
+    align-items: center; /* center content in mobile */
+  }
+
+  .profile-initial {
+    margin-bottom: 8px;
+  }
+
+  .name, .shortbio {
+    text-align: center;
+  }
+}

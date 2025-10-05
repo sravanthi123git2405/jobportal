@@ -1,0 +1,66 @@
+/* Container */
+.auth-container {
+  height: 100vh;
+  width: 100vw;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.auth-card {
+  width: 400px;
+  padding: 30px;
+  background: #272727;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo */
+.website-logo {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.form-control {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.form-control input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #64748b;
+  background: #1e1e1e;
+  color: #fff;
+}
+
+/* Button */
+.form-control button {
+  padding: 10px;
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Error message */
+.error-msg {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
